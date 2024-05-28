@@ -79,3 +79,24 @@ console.table([typeof number6,number6]);
 
 
 
+
+//************************* Operations ************* */
+let value=3
+let negValue=-value
+console.log(negValue);
+
+let str1="hello"
+
+let str2=" Akanksha"
+console.log(str1+str2);
+
+console.log("1"+2);//=> 12
+console.log(1+"2"); //=>12
+console.log("1"+2+3); //=>123
+
+console.log(1+2+"3");//=>33
+
+console.log(+true); //1
+
+console.log(+"");//0
+
