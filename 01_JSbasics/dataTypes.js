@@ -46,6 +46,9 @@
 
     }
 
+    console.log(typeof(myFunction));//==> object function
+
+
 
 //     //interviews ==> typeof() hamme kya deta hai
 //    typeof(  Undefined )==>undefined
@@ -65,7 +68,7 @@
 //    typeof(Object (host and does not implement [[Call]]) )==>Implementation-defined except may not be "undefined", "boolean", "number", or "string".
 
 
-
+// ====>   link references=>   https://262.ecma-international.org/5.1/#sec-8.1
 
 	
 
