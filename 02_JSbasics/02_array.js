@@ -10,7 +10,7 @@ let newLength = array.push(arr);
 
 console.log(array); // [ 1, 2, 3, [ 4, 5, 6 ] ]
 console.log(newLength); //4
-console.log(array.length());
+
 
 
 
@@ -97,7 +97,7 @@ function sum(a, b, c) {
   //flat(depth)==>  JavaScript mein flat method ka use arrays ko flatten 
 //   karne ke liye hota hai. Matlab, agar aapke paas ek nested array hai,
 //   toh flat method us array ko ek level tak flatten kar deta hai,
-//matlab array ke ander array ke ander another array aaise nested attay ko ek simple array me laa deta ahi.
+//matlab array ke ander array uske ander another array aaise nested array ko ek simple array me laa deta hai.
 
 
 //Syntax
@@ -108,7 +108,11 @@ function sum(a, b, c) {
   let new1=another_array.flat(Infinity)
   console.log("without flateen array" );
   console.log(another_array );
-  console.log("with flatten array =>");
+  console.log("with flatten array =>");  //[
+                                            //    1, 2, 3,  4,  5,
+                                            //    6, 7, 9, 10, 11,
+                                            //     12
+                                            // ]
 
   console.log(new1);
 
@@ -143,7 +147,8 @@ console.log(Array.from("Akanksha"));
 // agar mai esko object me pass karu=>{name:"akanksha"}
 
 console.log(Array.from({name:"akanksha"})); //output=> empty array==>[]
-// ye hamme ek empty array  dega kyuki ye esko directlt convert nahi kar pata hai esliye hamme esse batana padega ki keys ka array banau ya sirf eske values ka array banau and agar ye nahi bana payega to hamesha empty array dega
+// ye hamme ek empty array  dega kyuki ye esko directlt convert nahi kar pata hai esliye hamme esse batana padega
+// ki keys ka array banau ya sirf eske values ka array banau and agar ye nahi bana payega to hamesha empty array dega
 
 
 //************array me convert karne ka ek aur tarika */
