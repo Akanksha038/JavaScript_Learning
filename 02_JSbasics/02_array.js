@@ -10,6 +10,7 @@ let newLength = array.push(arr);
 
 console.log(array); // [ 1, 2, 3, [ 4, 5, 6 ] ]
 console.log(newLength); //4
+console.log(array.length());
 
 
 
