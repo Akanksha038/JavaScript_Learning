@@ -11,6 +11,10 @@ let newLength = array.push(arr);
 console.log(array); // [ 1, 2, 3, [ 4, 5, 6 ] ]
 console.log(newLength); //4
 
+for(let i of array){
+  console.log(i);
+}
+
 
 
 
@@ -160,4 +164,31 @@ let score3=400;
 console.log(Array.of(score1,score2,score3));//[ 100, 300, 400 ]
 
 
+
+for(let i of array){ //[ 4, 5, 6 ]
+  console.log(i);
+}
+
+
 //Array.is, of, from ==>padh lena
+
+
+//average marks of students
+
+let arry=[100,55,89,66,34,77];
+
+let j=0;
+for(let i of arry){
+ console.log(`value at index ${j} is ${i}`);
+ j++;
+}
+
+let sum1=0;
+for(let i of arry){
+  sum1+=i;
+}
+
+
+console.log(sum1);
+let avg=sum1/arry.length;
+console.log(avg);
