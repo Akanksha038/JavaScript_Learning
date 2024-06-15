@@ -64,3 +64,40 @@ chai1();
 
 
 //let see all arrow function types and all
+
+
+
+console.log("15/06/24");
+
+//what happend if we print only this inside object block==> it give as a output of all the context of object block
+
+const thisinsideBlock={
+    username:"sam",
+    fun:function(){
+        console.log(this) //{ username: 'sam', fun: [Function: fun] }
+
+    }
+    
+}
+
+
+thisinsideBlock.fun();
+
+
+
+//what happend if we printOR console only this keyword  outside object block==> it give as a output of all the context of object block
+
+
+
+const thisoutsideBlock={
+    username:"sam",
+    fun:function(){
+       
+
+    }
+    
+}
+
+
+thisoutsideBlock.fun();
+console.log(this)  // {}  //hamara this ek empty object ko refer kar raha hai kyuki abhi global ke ander koi context hi nahi hai
