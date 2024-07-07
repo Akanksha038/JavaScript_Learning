@@ -101,3 +101,24 @@ const thisoutsideBlock={
 
 thisoutsideBlock.fun();
 console.log(this)  // {}  //hamara this ek empty object ko refer kar raha hai kyuki abhi global ke ander koi context hi nahi hai
+
+console.log("Arrow function without parameter");
+const add=() =>{
+    return 15;
+}
+console.log(add());
+
+
+console.log("Arrow function with parameter");
+const addTwo=(num1,num2)=>{
+    return num1+num2;
+
+}
+
+console.log(addTwo(5,10));
+
+console.log("Arrow function with parameter and without return keyword");
+
+const addNumber=(num1,num2)=>(num1+num2);
+console.log(addNumber(10,20));
+
