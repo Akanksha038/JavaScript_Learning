@@ -3,18 +3,18 @@ for (let i = 0; i < 5; i++) {
   }
 
   
-  let i = 0;
-while (i < 5) {
+  let i1 = 0;
+while (i1 < 5) {
   console.log("Iteration number " + i);
   i++;
 }
 
 
-let i = 0;
+let i2 = 0;
 do {
   console.log("Iteration number " + i);
   i++;
-} while (i < 5);
+} while (i2 < 5);
 
 
 
